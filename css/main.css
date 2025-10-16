@@ -1,5 +1,7 @@
 @import "normalize.css";
 
+/*==============BASE STYLES==================================*/
+
 /* 1. Use a more-intuitive box-sizing model */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -29,18 +31,18 @@ body {
 /* 7. Improve media defaults */
 img, picture, video, canvas, svg {
   display: block;
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 
 /* 8. Inherit fonts for form controls */
-/* input, button, textarea, select {
+input, button, textarea, select {
   font: inherit;
-} */
+}
 
 /* 9. Avoid text overflows */
-/* p, h1, h2, h3, h4, h5, h6 {
+p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
-} */
+}
 
 /* 10. Improve line wrapping */
 /* p {
@@ -56,3 +58,5 @@ h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+
+/*===============================================================*/
